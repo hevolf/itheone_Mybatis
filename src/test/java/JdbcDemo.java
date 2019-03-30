@@ -1,5 +1,5 @@
 //STEP 1. 导入sql相关的包
-import com.itheone.mybatis.demo.entity.TUser;
+import com.itheone.mybatis.entity.TUser;
 import org.junit.Test;
 
 import java.sql.*;

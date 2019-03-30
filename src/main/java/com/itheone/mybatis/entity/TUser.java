@@ -1,6 +1,9 @@
-package com.itheone.mybatis.demo.entity;
+package com.itheone.mybatis.entity;
 
 import java.util.List;
+
+import com.itheone.mybatis.entity.TJobHistory;
+import org.apache.ibatis.annotations.Param;
 
 public class TUser {
     private Integer id;
@@ -18,7 +21,7 @@ public class TUser {
     private String note;
 
     private Integer positionId;
-    
+
     private List<TJobHistory> jobs ;
 
 //	public TUser(Integer id, String userName) {
@@ -26,12 +29,12 @@ public class TUser {
 //		this.id = id;
 //		this.userName = userName;
 //	}
-//    
-    
-    
+//
 
 
-	public Integer getId() {
+
+
+    public Integer getId() {
         return id;
     }
 
@@ -94,25 +97,25 @@ public class TUser {
     public void setPositionId(Integer positionId) {
         this.positionId = positionId;
     }
-    
-    
 
-	public List<TJobHistory> getJobs() {
-		return jobs;
-	}
 
-	public void setJobs(List<TJobHistory> jobs) {
-		this.jobs = jobs;
-	}
 
-	@Override
-	public String toString() {
-		return "TUser [id=" + id + ", userName=" + userName + ", realName="
-				+ realName + ", sex=" + sex + ", mobile=" + mobile + ", email="
-				+ email + ", note=" + note + ", positionId=" + positionId + "]";
-	}
+    public List<TJobHistory> getJobs() {
+        return jobs;
+    }
 
-	
-	
-    
+    public void setJobs(List<TJobHistory> jobs) {
+        this.jobs = jobs;
+    }
+
+    @Override
+    public String toString() {
+        return "TUser [id=" + id + ", userName=" + userName + ", realName="
+                + realName + ", sex=" + sex + ", mobile=" + mobile + ", email="
+                + email + ", note=" + note + ", positionId=" + positionId + "]";
+    }
+
+
+
+
 }

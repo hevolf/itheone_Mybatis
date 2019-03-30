@@ -1,6 +1,6 @@
-package com.itheone.mybatis.demo.mapper;
+package com.itheone.mybatis.mapper;
 
-import com.itheone.mybatis.demo.entity.TUserRoleKey;
+import com.itheone.mybatis.entity.TUserRoleKey;
 
 public interface TUserRoleMapper {
     int deleteByPrimaryKey(TUserRoleKey key);

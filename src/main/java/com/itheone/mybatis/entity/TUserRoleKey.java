@@ -1,4 +1,4 @@
-package com.itheone.mybatis.demo.entity;
+package com.itheone.mybatis.entity;
 
 public class TUserRoleKey {
     private Integer roleId;

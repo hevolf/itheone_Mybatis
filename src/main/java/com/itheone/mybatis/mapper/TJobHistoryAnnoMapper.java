@@ -1,6 +1,6 @@
-package com.itheone.mybatis.demo.mapper;
+package com.itheone.mybatis.mapper;
 
-import com.itheone.mybatis.demo.entity.TJobHistory;
+import com.itheone.mybatis.entity.TJobHistory;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;

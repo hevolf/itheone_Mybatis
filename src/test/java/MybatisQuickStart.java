@@ -1,6 +1,6 @@
 
-import com.itheone.mybatis.demo.entity.TUser;
-import com.itheone.mybatis.demo.mapper.TUserMapper;
+import com.itheone.mybatis.entity.TUser;
+import com.itheone.mybatis.mapper.TUserMapper;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
