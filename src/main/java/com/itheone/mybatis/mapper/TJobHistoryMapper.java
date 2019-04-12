@@ -2,8 +2,6 @@ package com.itheone.mybatis.mapper;
 
 import com.itheone.mybatis.entity.TJobHistory;
 
-import java.util.List;
-
 public interface TJobHistoryMapper {
     int deleteByPrimaryKey(Integer id);
 
@@ -16,6 +14,4 @@ public interface TJobHistoryMapper {
     int updateByPrimaryKeySelective(TJobHistory record);
 
     int updateByPrimaryKey(TJobHistory record);
-    
-    List<TJobHistory> selectByUserId(int userId);
 }

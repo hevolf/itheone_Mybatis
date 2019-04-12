@@ -11,7 +11,7 @@ import org.junit.Test;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class MybatisQuickStart {
+public class MybatisCh01 {
 
 	private SqlSessionFactory sqlSessionFactory;
 
