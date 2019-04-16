@@ -2,9 +2,12 @@
 import com.itheone.mybatis.entity.TUser;
 import org.junit.Test;
 
+import java.io.FileOutputStream;
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class JdbcDemo {
 	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
@@ -18,6 +21,7 @@ public class JdbcDemo {
 	public void QueryStatementDemo() {
 		Connection conn = null;
 		Statement stmt = null;
+		Map<String,Object> map = new HashMap<String,Object>();
 		List<TUser> users = new ArrayList<>();
 		try {
 			// STEP 2: 注册mysql的驱动

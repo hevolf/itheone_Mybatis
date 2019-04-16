@@ -35,6 +35,8 @@
 
 	<mappers>
 		<mapper resource="sqlmapper/TUserMapper.xml" />
+		<mapper resource="sqlmapper/TJobHistoryMapper.xml" />
+
 		<!--<mapper class="com.itheone.mybatis.mapper.TUserMapper" />-->
 	</mappers>
 

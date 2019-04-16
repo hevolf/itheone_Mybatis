@@ -2,7 +2,10 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.itheone.mybatis.mapper.TUserMapper">
 
-	<cache></cache>
+	<!--二级缓存开启  易导致脏读  不建议使用-->
+	<!--<cache></cache>-->
+	<!--与TJobHistoryMapper命名空间共用一个二级缓存，二者间共享一个namespace：TJobHistoryMapper-->
+	<!--<cache-ref namespace="com.itheone.mybatis.mapper.TJobHistoryMapper"></cache-ref>-->
 
 	<resultMap id="BaseResultMap" type="TUser">
 		<!-- <constructor> <idArg column="id" javaType="int"/> <arg column="user_name"
