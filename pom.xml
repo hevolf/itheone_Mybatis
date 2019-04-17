@@ -6,7 +6,12 @@
 
     <groupId>com.itheone</groupId>
     <artifactId>Mybatis</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>MybatisSpring</module>
+        <module>MybatisSpring</module>
+    </modules>
 
     <dependencies>
         <!-- 单元测试相关依赖 -->
