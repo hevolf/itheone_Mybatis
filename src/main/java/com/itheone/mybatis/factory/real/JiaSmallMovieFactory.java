@@ -13,5 +13,4 @@ public class JiaSmallMovieFactory implements SmallMovieFactory {
 		//此处省略一万字
 		return smallMovie;
 	}
-
 }

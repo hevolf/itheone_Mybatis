@@ -4,13 +4,14 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
+//继承invoke方法
 public class WangMeiLiProxy implements InvocationHandler {
 	
-	private Girl gilr;
+	private Family gilr;
 	
 	
 
-	public WangMeiLiProxy(Girl gilr) {
+	public WangMeiLiProxy(Family gilr) {
 		super();
 		this.gilr = gilr;
 	}

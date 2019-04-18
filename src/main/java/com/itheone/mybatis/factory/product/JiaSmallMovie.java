@@ -30,32 +30,17 @@ public class JiaSmallMovie implements SmallMovie{
 		System.out.println("加老师，为您表演，此处少儿不宜");
 		
 	}
-	
-	
-	
 
 	public JiaSmallMovie(String actor) {
 		super();
 		this.actor = actor;
 	}
 
-
-
-
-
-
-
 	public JiaSmallMovie(String actor, String director) {
 		super();
 		this.actor = actor;
 		this.director = director;
 	}
-
-
-
-
-
-
 
 	public JiaSmallMovie(String actor, String director, String bianju) {
 		super();

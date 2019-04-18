@@ -1,6 +1,6 @@
 package com.itheone.mybatis.proxy;
 
-public interface Girl {
+public interface Family {
 	
 	void date();
 	

@@ -1,6 +1,6 @@
 package com.itheone.mybatis.proxy;
 
-public class WangMeiLi implements Girl {
+public class WangMeiLi implements Family {
 
 	@Override
 	public void date() {

@@ -56,7 +56,9 @@
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
-            <version>3.4.1</version>
+            <!--<version>3.4.1</version>-->
+            <version>3.5.2-SNAPSHOT</version>
+
         </dependency>
 
     </dependencies>
